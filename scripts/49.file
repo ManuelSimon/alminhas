@@ -1,0 +1,508 @@
+<div class="listado-elastic-search">
+<div class="container-fluid auxiliar-module">
+    <div class="max-width">
+        <div class="row">
+            <div class="col-sm-12 padding-l">
+                <h3 class="title text-center" id="titleSearch">Resultados da busca</h3>
+            </div></div></div></div><div id="capa-reload" class="relative"> 
+  <div class="container-fluid margin-bottom-m">                                    
+    <div class="max-width">
+        <div class="row visible-xs-block">
+            <div class="col-sm-12">
+            <form action="/buscador-global?langId=gl_ES" name="formBuscaM" id="formBuscaM" method="get">                    
+                <input type="hidden" name="langId" value="gl_ES" >
+                            
+                    <!-- label for="q">Introduzca palabras relacionadas con lo que desea encontrar:</label -->
+                    <div class="input-group padding-bottom-m">
+                        <input type="text" class="form-control" name="q" value="peto">                     
+                             <span class="input-group-btn">                     
+                            <button class="btn btn-primary" type="submit"><span class="icon-buscador"></span></button>                    
+                        </span> 
+                        <span class="input-group-btn">                      
+                            <a class="btn btn-default"  id="filtroCollapseBtn"><span class="glyphicon glyphicon-filter"></span><span class="hidden">Filtra a túa busca</span></a>                      
+                        </span>              
+                    </div></form></div></div><div class="row">
+            
+            <div class="col-sm-3">
+                    
+                    <div id="filtroCollapse" class="margin-bottom-m">
+                        <div class="cerrarM show hamburger pull-right visible-xs-block open"><span></span><span></span><span></span><span></span></div><div class="module-list-simple-title padding-bottom-s ">
+                            <h2>Por tipo:</h2>
+                            <ul class="list-unstyled">
+                            
+                            <li class="active">
+                            <div class="media">
+                          <div class="media-body media-middle">
+                           <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;orden=1">En todos os contidos</a>
+                          </div><div class="media-right media-middle">
+                            <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;orden=1"><span class="badge  pull-right">533</span></a>
+                          </div></div></li><li >
+                                    
+                                    <div class="media">
+                          <div class="media-body media-middle">
+                            <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=1&amp;orden=1">Onde aloxarse</a>
+                          </div><div class="media-right media-middle">
+                             <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=1&amp;orden=1"><span class="badge">2</span></a>
+                          </div></div></li><li >
+                                    
+                                    <div class="media">
+                          <div class="media-body media-middle">
+                            <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=2&amp;orden=1">Onde comer</a>
+                          </div><div class="media-right media-middle">
+                             <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=2&amp;orden=1"><span class="badge">4</span></a>
+                          </div></div></li><li >
+                                    
+                                    <div class="media">
+                          <div class="media-body media-middle">
+                            <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=40000100&amp;orden=1">Onde quedar</a>
+                          </div><div class="media-right media-middle">
+                             <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=40000100&amp;orden=1"><span class="badge">1</span></a>
+                          </div></div></li><li >
+                                    
+                                    <div class="media">
+                          <div class="media-body media-middle">
+                            <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=3&amp;orden=1">Que visitar</a>
+                          </div><div class="media-right media-middle">
+                             <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=3&amp;orden=1"><span class="badge">486</span></a>
+                          </div></div></li><li >
+                            <div class="media">
+                              <div class="media-body media-middle">
+                               <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=Axenda&amp;orden=1">Axenda cultural</a>
+                              </div><div class="media-right media-middle">
+                               <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=Axenda&amp;orden=1"><span class="badge  pull-right">15</span></a>
+                              </div></div></li></ul></div><div class="module-list-simple-title">
+                        <h2>Por lugar:</h2>
+                            <ul class="list-unstyled">
+                            
+                                    <li >
+                                       <div class="media">
+                              <div class="media-body media-middle">
+                              <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=A Coruña&amp;orden=1">A Coruña</a>
+                              </div><div class="media-right media-middle">
+                               <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=A Coruña&amp;orden=1"><span class="badge  pull-right">18</span></a>
+                              </div></div></li><li >
+                                       <div class="media">
+                              <div class="media-body media-middle">
+                              <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=Lugo&amp;orden=1">Lugo</a>
+                              </div><div class="media-right media-middle">
+                               <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=Lugo&amp;orden=1"><span class="badge  pull-right">12</span></a>
+                              </div></div></li><li >
+                                       <div class="media">
+                              <div class="media-body media-middle">
+                              <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=Ourense&amp;orden=1">Ourense</a>
+                              </div><div class="media-right media-middle">
+                               <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=Ourense&amp;orden=1"><span class="badge  pull-right">162</span></a>
+                              </div></div></li><li >
+                                       <div class="media">
+                              <div class="media-body media-middle">
+                              <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=Pontevedra&amp;orden=1">Pontevedra</a>
+                              </div><div class="media-right media-middle">
+                               <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;site=Pontevedra&amp;orden=1"><span class="badge  pull-right">316</span></a>
+                              </div></div></li></ul></div></div></div><div id="containerSearch" class="col-sm-9 relative">
+                <div class="loader"></div><div class="row">
+                    <div class="col-sm-6">
+                    
+                                <input type="hidden" name="orden" id="orden" value="1" >
+                                <input type="hidden" name="site" id="site" value="" >
+                                <input type="hidden" name="q" id="query" value="peto" >
+                                <input type="hidden" name="compartirUrl" id="compartirUrl" value="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&orden=1&site=" >
+                    
+                         <form action="/buscador-global?langId=gl_ES" name="formBusca" id="formBusca" method="get" class="hidden-xs">                   
+                                <input type="hidden" name="langId" value="gl_ES" > 
+                                
+                                <div class="input-group padding-bottom-m">
+                                    <input type="text" class="form-control" name="q" value="peto">                     
+                                    <span class="input-group-btn">                      
+                                        <button class="btn btn-primary" type="submit"><span class="icon-buscador"></span></button>                    
+                                    </span>                 
+                                </div></form></div></div><div class="barraFerramentas clearfix table-vertical rs_skip rs_preserve">
+                
+                <div class="itemFiltro cell ord">
+                    <span class="label">Ordenar por:</span>
+                    
+                    <select id="selectTipoSuperior" class="selectpicker" name="orden">
+                        
+                        <option value="2" >Máis recente</option>
+                        <option value="3" >Máis antiguo</option>
+                        <option value="1" selected>Relevancia</option>
+                    </select>
+                </div></div><div class="row">
+                    <div class="col-sm-6 padding-top-l">
+                        <p>Foron atopados <strong>533</strong> resultados</p>
+                    </div><div class="col-sm-6 paxinador">    
+                
+<div class="filter-horizontal clearfix padding-m padding-bottom-0 padding-right-0">
+    
+    <div class="text-right">
+    	<ul class="pagination" id="paginador-sup">
+    
+    	   
+    	   <li>	        <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;orden=1" data-url="" class="btn btn-default"><span class="icon-inicio"></span></a>	   </li><li>	        <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=48&amp;orden=1" data-url="" class="btn btn-default"><span class="icon-esquerda"></span></a>	   </li><li class="pagination-input">	<form action="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;orden=1" data-url=" id="pagInputSup"  method="get" class="inline">	<label class="hide" for="pax">Ir a </label>	<input type="text" name="pax" class="text-right" value="49">  de <span class="pagination-max-number">54</span>	<input type="hidden" name="q" class="text-right" value="peto">	</form></li><li>	        <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=50&amp;orden=1" data-url="" class="btn btn-default"><span class="icon-dereita"></span></a>	   </li><li>	        <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=54&amp;orden=1" data-url="" class="btn btn-default"><span class="icon-fin"></span></a>	   </li></ul></div></div></div></div><div class="row list-horizontal-content">
+                       
+                <div class="col-sm-12 padding-top-s padding-bottom-s">
+                    <div class="list-item-multiplex media">
+                      
+                      
+                      <div class="media-body">
+                        
+                        <div class="category">Cruceiro</div><div class="list-title">
+                                <a href="/recurso/-/detalle/18538/cruceiro-de-animas-da-aldea-de-abaixo?langId=gl_ES" title="CRUCEIRO DE ÁNIMAS DA ALDEA DE ABAIXO en Cerdedo-Cotobade (Pontevedra)">CRUCEIRO DE ÁNIMAS DA ALDEA DE ABAIXO en Cerdedo-Cotobade (Pontevedra) </a>
+                            </div><div class="entry">... Cruceiro con peto. Atópase formando parte dun muro. O peto é de tipo pechado, con fornela pequena, arqueada e que mostra na fronte e por debaixo un oco para o caixón das esmolas, que aparece dividido  ...</div><p class="margin-0"><a href="/recurso/-/detalle/18538/cruceiro-de-animas-da-aldea-de-abaixo?langId=gl_ES" class="show">www.turismo.gal/recurso/-/detalle/18538/cruceiro-de-animas-da-aldea-de-abaixo?langId=gl_ES</a></p>
+                            
+                      </div></div></div><div class="col-sm-12 padding-top-s padding-bottom-s">
+                    <div class="list-item-multiplex media">
+                      
+                      
+                      <div class="media-body">
+                        
+                            <div class="list-title">
+                                <a href="/que-facer/birding-in-galicia/onde-ver-aves-en-galicia/tamen-nas-cidades/ourense?langId=gl_ES" title="Ourense">Ourense </a>
+                            </div><div class="entry">... Ourense UCM:/Documentos/Portal/Experiencias/Birding in Galicia/Ourense/Puntos Itinerario 2.kmz Espazo tb://5683/Rio Lonia paseo.JPG tb://5675/Dendrocopos minor.jpg UCM:/Documentos/Portal/Experiencias/ ...</div><p class="margin-0"><a href="/que-facer/birding-in-galicia/onde-ver-aves-en-galicia/tamen-nas-cidades/ourense?langId=gl_ES" class="show">www.turismo.gal/que-facer/birding-in-galicia/onde-ver-aves-en-galicia/tamen-nas-cidades/ourense?langId=gl_ES</a></p>
+                            
+                      </div></div></div><div class="col-sm-12 padding-top-s padding-bottom-s">
+                    <div class="list-item-multiplex media">
+                      
+                      
+                      <div class="media-body">
+                        
+                            <div class="list-title">
+                                <a href="/axenda-cultural/evento?langId=gl_ES&nid=65545" title="In crescendo coa BMMC">In crescendo coa BMMC </a>
+                            </div><div class="entry">... In crescendo coa BMMC Banda Municipal de Música da Coruña en Concerto
+Juan Lois Diéguez director convidado os días 12 e 19 de decembro.
+Entrada libre ata completar aforo.
+Programa:
+Hardy MERTENS (1960 ...</div><p class="margin-0"><a href="/axenda-cultural/evento?langId=gl_ES&nid=65545" class="show">www.turismo.gal/axenda-cultural/evento?langId=gl_ES&nid=65545</a></p>
+                            
+                      </div></div></div><div class="col-sm-12 padding-top-s padding-bottom-s">
+                    <div class="list-item-multiplex media">
+                      
+                      
+                      <div class="media-body">
+                        
+                            <div class="list-title">
+                                <a href="/que-facer/birding-in-galicia/onde-ver-aves-en-galicia/a-montana/o-courel?langId=gl_ES" title="O Courel">O Courel </a>
+                            </div><div class="entry">... O Courel tb://4600/Sitta europaea _001.JPG no UCM:/Documentos/Portal/Experiencias/Birding in Galicia/O Courel/Puntos Itinerario 2.kmz Espazo tb://5555/Caurel Val de Moreda.JPG 4 km, só ida tb://4423/P ...</div><p class="margin-0"><a href="/que-facer/birding-in-galicia/onde-ver-aves-en-galicia/a-montana/o-courel?langId=gl_ES" class="show">www.turismo.gal/que-facer/birding-in-galicia/onde-ver-aves-en-galicia/a-montana/o-courel?langId=gl_ES</a></p>
+                            
+                      </div></div></div><div class="col-sm-12 padding-top-s padding-bottom-s">
+                    <div class="list-item-multiplex media">
+                      
+                      
+                      <div class="media-body">
+                        
+                            <div class="list-title">
+                                <a href="/que-facer/birding-in-galicia/os-mellores-lugares/oimbra-monterrei-e-verin?langId=gl_ES" title="Oímbra, Monterrei e Verín">Oímbra, Monterrei e Verín </a>
+                            </div><div class="entry">... Oímbra, Monterrei e Verín tb://4645/Lanius senator aramio.jpg no UCM:/Documentos/Portal/Experiencias/Birding in Galicia/Oimbra-Monterrei e Verin/Puntos Itinerario 2 Elanus.kmz Espazo tb://4650/Verin M ...</div><p class="margin-0"><a href="/que-facer/birding-in-galicia/os-mellores-lugares/oimbra-monterrei-e-verin?langId=gl_ES" class="show">www.turismo.gal/que-facer/birding-in-galicia/os-mellores-lugares/oimbra-monterrei-e-verin?langId=gl_ES</a></p>
+                            
+                      </div></div></div><div class="col-sm-12 padding-top-s padding-bottom-s">
+                    <div class="list-item-multiplex media">
+                      
+                      
+                      <div class="media-body">
+                        
+                            <div class="list-title">
+                                <a href="/axenda-cultural/evento?langId=gl_ES&nid=74803" title="Barbeira Season Fest 2020">Barbeira Season Fest 2020 </a>
+                            </div><div class="entry">... Barbeira Season Fest 2020 Organizado por Elemental Street S.L.
+O ano pasado sobrevivimos a un diluvio.
+Este ano a unha pandemia.
+Un festival contra todo pronóstico.
+Hoxe por fin confirmamos un proxect ...</div><p class="margin-0"><a href="/axenda-cultural/evento?langId=gl_ES&nid=74803" class="show">www.turismo.gal/axenda-cultural/evento?langId=gl_ES&nid=74803</a></p>
+                            
+                      </div></div></div><div class="col-sm-12 padding-top-s padding-bottom-s">
+                    <div class="list-item-multiplex media">
+                      
+                      
+                      <div class="media-body">
+                        
+                        <div class="category">Área de recreo</div><div class="list-title">
+                                <a href="/recurso/-/detalle/280381399/carballeira-de-famelga?langId=gl_ES" title="CARBALLEIRA DE FAMELGA en Cerdedo-Cotobade (Pontevedra)">CARBALLEIRA DE FAMELGA en Cerdedo-Cotobade (Pontevedra) </a>
+                            </div><div class="entry">... Carballeira con mesas, palco de música, grella, lavadoiro, capela de Santa Lucía e peto de ánimas en Aguasantas (Santa María), Famelga. 36854 Cerdedo-Cotobade - Pontevedra ...</div><p class="margin-0"><a href="/recurso/-/detalle/280381399/carballeira-de-famelga?langId=gl_ES" class="show">www.turismo.gal/recurso/-/detalle/280381399/carballeira-de-famelga?langId=gl_ES</a></p>
+                            
+                      </div></div></div><div class="col-sm-12 padding-top-s padding-bottom-s">
+                    <div class="list-item-multiplex media">
+                      
+                      
+                      <div class="media-body">
+                        
+                            <div class="list-title">
+                                <a href="/axenda-cultural/evento?langId=gl_ES&nid=76070" title="The Bo Dereck's + Inerttes">The Bo Dereck's + Inerttes </a>
+                            </div><div class="entry">... The Bo Dereck's + Inerttes Concerto de rock'n'roll.
+The Bo Derek's é a conxunción de Óscar Avendaño (Sinistro Total, Os Profesionais, Repousado, Os Naipes...) cos Irmáns Lorre: Jorge Lorre e Rufus o P ...</div><p class="margin-0"><a href="/axenda-cultural/evento?langId=gl_ES&nid=76070" class="show">www.turismo.gal/axenda-cultural/evento?langId=gl_ES&nid=76070</a></p>
+                            
+                      </div></div></div><div class="col-sm-12 padding-top-s padding-bottom-s">
+                    <div class="list-item-multiplex media">
+                      
+                      
+                      <div class="media-body">
+                        
+                            <div class="list-title">
+                                <a href="/que-visitar/xeodestinos/terras-de-santiago?langId=gl_ES" title="Terras de Santiago">Terras de Santiago </a>
+                            </div><div class="entry">... Terras de Santiago Estas son terras cun gran patrimonio artístico e monumental. Como o mosteiro de Sobrado dos Monxes, unha obra mestra do Renacemento e do Barroco en Galicia. E en Santiago de Compost ...</div><p class="margin-0"><a href="/que-visitar/xeodestinos/terras-de-santiago?langId=gl_ES" class="show">www.turismo.gal/que-visitar/xeodestinos/terras-de-santiago?langId=gl_ES</a></p>
+                            
+                      </div></div></div><div class="col-sm-12 padding-top-s padding-bottom-s">
+                    <div class="list-item-multiplex media">
+                      
+                      
+                      <div class="media-body">
+                        
+                            <div class="list-title">
+                                <a href="/que-facer/birding-in-galicia/onde-ver-aves-en-galicia/a-montana/oimbra-monterrei-e-verin?langId=gl_ES" title="Oímbra, Monterrei e Verín">Oímbra, Monterrei e Verín </a>
+                            </div><div class="entry">... Oímbra, Monterrei e Verín tb://4645/Lanius senator aramio.jpg no UCM:/Documentos/Portal/Experiencias/Birding in Galicia/Oimbra-Monterrei e Verin/Puntos Itinerario 2 Elanus.kmz Espazo tb://4650/Verin M ...</div><p class="margin-0"><a href="/que-facer/birding-in-galicia/onde-ver-aves-en-galicia/a-montana/oimbra-monterrei-e-verin?langId=gl_ES" class="show">www.turismo.gal/que-facer/birding-in-galicia/onde-ver-aves-en-galicia/a-montana/oimbra-monterrei-e-verin?langId=gl_ES</a></p>
+                            
+                      </div></div></div></div><div class="filter-horizontal clearfix padding-m padding-bottom-0 padding-right-0">
+    
+    <div class="text-right">
+    	<ul class="pagination" id="paginador-inf">
+    
+    	   
+    	   <li>	        <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=1&amp;orden=1" data-url="" class="btn btn-default"><span class="icon-inicio"></span></a>	   </li><li>	        <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=48&amp;orden=1" data-url="" class="btn btn-default"><span class="icon-esquerda"></span></a>	   </li><li class="pagination-input">	<form action="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;orden=1" data-url=" id="pagInputSup"  method="get" class="inline">	<label class="hide" for="pax">Ir a </label>	<input type="text" name="pax" class="text-right" value="49">  de <span class="pagination-max-number">54</span>	<input type="hidden" name="q" class="text-right" value="peto">	</form></li><li>	        <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=50&amp;orden=1" data-url="" class="btn btn-default"><span class="icon-dereita"></span></a>	   </li><li>	        <a href="/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&amp;pax=54&amp;orden=1" data-url="" class="btn btn-default"><span class="icon-fin"></span></a>	   </li></ul></div></div></div></div></div></div></div></div><style>
+.listado-elastic-search .title-filter{
+color: #0371B3;
+margin: 0 0 20px 0;
+font-size: 1.6em;
+font-weight: 500;
+line-height: 1em;
+position:relative;
+}
+.listado-elastic-search #filtroCollapse{
+    display:block
+}
+.mediaJS-xs .listado-elastic-search .title-filter{
+    border:1px solid #0371B3;
+    padding:12px;
+    cursor:pointer;
+    }
+.mediaJS-xs .listado-elastic-search .title-filter:after {
+    content: "\e922";
+    position: absolute;
+    top: 15px;
+right: 15px;
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.mediaJS-xs .listado-elastic-search .title-filter.active:after {
+    content: "\e903";
+}
+.mediaJS-xs  .listado-elastic-search #filtroCollapse{
+    display:none;
+}
+.mediaJS-xs .listado-elastic-search .module-list-simple-title{
+    padding:8px 15px;
+}
+.mediaJS-xs .listado-elastic-search #filtroCollapse {
+position: fixed;
+top: 64px;
+max-height: 100%;
+overflow-x: hidden;
+overflow-y: auto;
+background: #eee;
+left: 0vw;
+z-index: 9999;
+height: 90%;
+padding-top:40px;
+width: 100%;
+border: 0px solid;
+}
+.mediaJS-xs .listado-elastic-search .module-list-simple-title li a:hover {
+border-left: 0px;
+}
+.mediaJS-xs .listado-elastic-search #filtroCollapse .module-list-simple-title ul {
+    background: #eee;
+}
+.listado-elastic-search .list-item-multiplex .category{
+font-family:'raleway', Helvetica, Arial, sans-serif;
+color:#333;
+    text-transform: uppercase;
+    display: block;
+    font-size: 0.8em;
+margin-bottom: -4px;
+}
+@media screen and (min-width: 769px) {
+.listado-elastic-search #filtroCollapse{
+    display:block !important;
+}
+}
+.listado-elastic-search .module-list-simple-title h2{
+    font-size: 1.15em;
+    font-weight: 600;
+    margin-bottom:5px;
+}
+.listado-elastic-search .module-list-simple-title li{
+    margin-bottom:5px;
+}
+.listado-elastic-search .module-list-simple-title li a{
+    color: #333;
+    border-left: 0px;
+}
+.listado-elastic-search .module-list-simple-title li a .small{
+    font-size:80%;
+    }
+.listado-elastic-search .module-list-simple-title li a:hover{
+    border-left: 0px solid #057EB5;
+    color:#057EB5;
+}
+.listado-elastic-search .module-list-simple-title li.active a{
+    font-weight: 800;
+    color: #057EB5 !important;
+}
+.listado-elastic-search .list-item-multiplex img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    
+}
+.listado-elastic-search #filtroCollapse .module-list-simple-title h2 {
+display: block;
+font-size: 1.32em;
+font-weight: 700;
+padding-bottom: .2em;
+padding-top: 1em;
+color: #000;
+margin-bottom: 0;
+padding-left: 0px;
+padding-top: 10px;
+border-bottom: none;
+border-top: 1px solid #333;
+text-transform: uppercase;
+line-height: 1em;
+}
+.listado-elastic-search #filtroCollapse .module-list-simple-title ul {
+background: #FFF;
+margin-bottom: 25px;
+padding: 0px !important;
+margin: 0;
+padding: 0;
+border: 0;
+list-style: none;
+line-height: 1;
+display: block;
+position: relative;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.listado-elastic-search #filtroCollapse .module-list-simple-title ul li {
+margin: 0;
+border: 0;
+list-style: none;
+line-height: 1;
+display: block;
+position: relative;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+border-bottom: 1px solid #c8cfd5;
+padding: 10px 25px 10px 4px;
+}
+.listado-elastic-search #filtroCollapse .module-list-simple-title ul li a {
+cursor: pointer;
+z-index: 1;
+text-decoration: none;
+color: #666;
+font-size: .965em;
+line-height: 1.4em;
+}
+.listado-elastic-search #filtroCollapse .module-list-simple-title ul li a:hover span.inline{
+text-decoration:underline;
+}
+.listado-elastic-search #filtroCollapse .module-list-simple-title ul li a .badge{
+background: #000;
+font-size: 0.9em;
+line-height: 1em;
+font-family: "roboto","Georgia","Times New Roman",Times,serif;
+margin-left:5px;
+margin-top:2px;
+}
+.listado-elastic-search #filtroCollapse .module-list-simple-title .active a{
+    font-weight: 800;
+    color: #057EB5 !important;
+    }
+.listado-elastic-search #filtroCollapse .module-list-simple-title .active a .badge{
+    background:#057EB5 !important;
+}
+.listado-elastic-search .module-list-simple-title li a:hover {
+border-left: 0px;
+}
+.listado-elastic-search .module-list-simple-title {
+   font-family: raleway,Helvetica,Arial,sans-serif;
+}
+.listado-elastic-search .cerrarM.hamburger span {
+    color: #000 !important;
+    background: #000;
+}
+.listado-elastic-search .cerrarM.hamburger {
+    top: -33px;
+    height: 30px;
+    width: 30px;
+    left: -15px;
+}
+.listado-elastic-search #filtroCollapse .module-list-simple-title ul li.active a .badge{
+background:#057EB5;
+}
+@font-face {
+    font-family: 'glyphicons';
+    src:url('/tema-turismo-gal/fonts/glyphicons-halflings-regular.eot');
+    src: url('/tema-turismo-gal/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+         url('/tema-turismo-gal/fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+         url('/tema-turismo-gal/fonts/glyphicons-halflings-regular.woff') format('woff'),
+         url('/tema-turismo-gal/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+         url('/tema-turismo-gal/fonts/glyphicons-halflings-regular.svg#glyphicons-halflings') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.listado-elastic-search .glyphicon {    
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'glyphicons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.listado-elastic-search .glyphicon-filter:before {
+    content: "\e138";
+}
+.listado-elastic-search .glyphicon.glyphicon-filter{
+    font-size: .9em;
+    top: 2px;
+    margin-right: 5px;
+}
+.listado-elastic-search .loader{
+    z-index: 999 !important;
+}
+.listado-elastic-search #filtroCollapse > div:nth-child(2) ul > li:first-child a .badge {
+    margin-top: 0px;
+}
+.listado-elastic-search #filtroCollapse .module-list-simple-title ul > li:last-child {
+    border-bottom: 0px solid transparent !important;
+}
+@media only screen and (device-width:768px){
+    .listado-elastic-search #capa-reload .visible-xs-block, #capa-reload .visible-xs-inline, #capa-reload .visible-xs-inline-block, #capa-reload .visible-sm-block, #capa-reload .visible-sm-inline, #capa-reload .visible-sm-inline-block, #capa-reload .visible-md-block, #capa-reload .visible-md-inline, #capa-reload .visible-md-inline-block, #capa-reload .visible-lg-block, #capa-reload .visible-lg-inline, #capa-reload .visible-lg-inline-block {
+        display: block !important;
+    }
+    .listado-elastic-search #formBuscaM{
+        display: none !important;
+    }
+    .mediaJS-xs .listado-elastic-search #filtroCollapse {
+        top: 100px;
+        height: 86%;
+    }
+    .mediaJS-xs.scrolled .listado-elastic-search #filtroCollapse {
+        top: 64px;
+        height: 90%;
+    }
+    
+}
+</style><script type="text/javascript">/*<![CDATA[*/jQueryU(".listado-elastic-search #filtroCollapseBtn").off("click");jQueryU(".listado-elastic-search #filtroCollapseBtn").on("click",function(){if(jQueryU("body").hasClass("mediaJS-xs")){jQueryU("#filtroCollapse").slideToggle();jQueryU(this).toggleClass("active")}});jQueryU(".listado-elastic-search .cerrarM.hamburger").off("click");jQueryU(".listado-elastic-search .cerrarM.hamburger").on("click",function(){if(jQueryU("body").hasClass("mediaJS-xs")){jQueryU(".listado-elastic-search #filtroCollapse").slideToggle();jQueryU(this).toggleClass("active");jQueryU(".listado-elastic-search #filtroCollapseBtn").toggleClass("active")}});function loadResultSearch(a){jQueryU(".listado-elastic-search .list-horizontal-content").addClass("loader-list");jQueryU.ajax({url:a,success:function(b){jQueryU(".listado-elastic-search #containerSearch").html(b);jQueryU(".listado-elastic-search .list-horizontal-content").removeClass("loader-list");jQueryU(".lazy").lazyload();rewriteHrefModalResource();jQueryU(".listado-elastic-search .selectpicker").selectpicker();if(jQueryU(window).width()<"769"){jQueryU(".listado-elastic-search #filtroCollapse").hide();jQueryU(".listado-elastic-search #filtroCollapseBtn").removeClass("active");jQueryU("html,body").animate({scrollTop:jQueryU(".listado-elastic-search #titleSearch").offset().top},"fast")}}})}jQueryU(document.body).on("change",".listado-elastic-search #selectTipoSuperior",function(d){if(jQueryU(".listado-elastic-search #containerSearch #site").val()!=""){loadResultSearch("/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&orden="+jQueryU(".listado-elastic-search #selectTipoSuperior").val()+"&site="+jQueryU(".listado-elastic-search #containerSearch #site").val())}else{loadResultSearch("/buscador-global/-/ajax?langId=gl_ES&ajax=true&q=peto&orden="+jQueryU(".listado-elastic-search #selectTipoSuperior").val())}d.preventDefault();var b="";var c="";var a=this.value;jQueryU(".listado-elastic-search #filtroCollapse ul li a").each(function(e){b=jQueryU(this).attr("href");c=updateURL(b,"orden",a);jQueryU(this).attr("href",c)})});jQueryU(".listado-elastic-search #sort a").off("click");jQueryU(".listado-elastic-search #sort a").on("click",function(a){jQueryU(".listado-elastic-search #sort a").removeClass("active");jQueryU(this).parent().addClass("active");loadResultSearch(jQueryU(this).attr("href"));a.preventDefault()});jQueryU(".listado-elastic-search .module-list-simple-title li a").off("click");jQueryU(".listado-elastic-search .module-list-simple-title li a").on("click",function(a){jQueryU(".listado-elastic-search .module-list-simple-title li").removeClass("active");jQueryU(this).parent().parent().parent().addClass("active");loadResultSearch(jQueryU(this).attr("href"));a.preventDefault()});jQueryU(".listado-elastic-search #paginador-sup a").off("click");jQueryU(".listado-elastic-search #paginador-sup a").on("click",function(a){loadResultSearch(jQueryU(this).attr("href"));a.preventDefault()});jQueryU(".listado-elastic-search #paginador-inf a").off("click");jQueryU(".listado-elastic-search #paginador-inf a").on("click",function(a){loadResultSearch(jQueryU(this).attr("href"));jQueryU("html,body").animate({scrollTop:jQueryU(".listado-elastic-search #titleSearch").offset().top},"fast");a.preventDefault()});jQueryU(".pagination-input form").submit(function(c){jQueryU(".list-horizontal-content").addClass("loader-list");if(Number(jQueryU("input[name=pax]").val())>Number(jQueryU(".listado-elastic-search #paginador-sup .pagination-max-number").text())){jQueryU("input[name=pax]").val(jQueryU(".listado-elastic-search #paginador-sup .pagination-max-number").text())}var a=jQueryU(this).serializeArray();var b=jQueryU(this).attr("action");var d=jQueryU(this).parent().parent().attr("id");jQueryU.ajax({url:b,type:"POST",data:a,success:function(e){jQueryU(".listado-elastic-search #containerSearch").html(e);jQueryU(".listado-elastic-search .list-horizontal-content").removeClass("loader-list");jQueryU(".lazy").lazyload();rewriteHrefModalResource();jQueryU(".selectpicker").selectpicker()},error:function(e,g,f){jQueryU(".listado-elastic-search .list-horizontal-content").removeClass("loader-list")}});jQueryU("html,body").animate({scrollTop:jQueryU(".listado-elastic-search #titleSearch").offset().top},"fast");c.preventDefault()});function updateURL(c,e,f){var a=new RegExp("[?|&]"+e+"=[0-9a-zA-Z_+-|.,;]*");if(a.test(c)){var a=new RegExp("[?&]"+e+"=([^&#]*)");var b=a.exec(c)[0].charAt(0);c=c.replace(a,b+e+"="+f)}else{var g=e+"="+f;if(!c.indexOf("?")){c+="?"}if(c.indexOf("#")>-1){var d=c.split("#");c=d[0]+"&"+g+(d[1]?"#"+d[1]:"")}else{c+="&"+g}}return c};/*]]>*/</script>
